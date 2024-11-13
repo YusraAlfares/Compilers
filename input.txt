@@ -1,0 +1,22 @@
+start{
+var x = 5;
+int y = 10;
+float z = 3.14;
+int result1;
+int result2;
+int result3;
+int result4;
+
+result1 = x + y
+result2 = x * y
+result3 = x / y
+result4 = x - y
+do {
+    print(x);
+    y = y + 1;
+    if (y >= 100) {
+        print("y reached 100");
+        break;
+    }
+}}
+finish
